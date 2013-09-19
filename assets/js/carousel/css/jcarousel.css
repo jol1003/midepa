@@ -1,0 +1,30 @@
+#mycarousel-prev,#mycarousel-next,.jcarousel-control a,.jcarousel-control a.sel{background:transparent url(ico.jcarousel.gif) no-repeat;}
+#mycarousel-prev,#mycarousel-next{float:left;}
+.jcarousel-skin{overflow:hidden;}
+.jcarousel-skin ul{height:232px;overflow:hidden;}
+.jcarousel-skin .vtn{position:absolute;margin-top:122px;margin-left:234px;}
+.jcarousel-skin li:hover .vtn{background-position:left -26px;}
+.jcarousel-skin .jcarousel-container-horizontal{width:1000px;}
+.jcarousel-skin .jcarousel-clip{overflow:hidden;}
+.jcarousel-skin .jcarousel-clip-horizontal{float:left;width:918px;height:232px;}
+.jcarousel-skin .jcarousel-item{width:300px;height:232px;padding-left:3px;padding-right:3px;}
+.jcarousel-control{float:right;padding-top:7px;}
+.jcarousel-control a{display:block;float:left;width:12px;height:12px;margin-left:5px;background-position:-152px top;font-size:0px;}
+.jcarousel-control a.sel,.jcarousel-control a:hover{background-position:-152px -12px;}
+#mycarousel-prev,#mycarousel-next{float:left;display:block;width:38px;height:232px;}
+#mycarousel-prev{margin-right:3px;background-position:left top;} #mycarousel-prev:hover{background-position:-76px top;}
+#mycarousel-next{margin-left:3px;background-position:-38px top;} #mycarousel-next:hover{background-position:-114px top;}
+
+.jcarousel-skin-det .jcarousel-container{width:680px;margin-top:10px;}
+.jcarousel-skin-det .jcarousel-container-horizontal{width:680px;}
+.jcarousel-skin-det .jcarousel-clip{overflow:hidden;}
+.jcarousel-skin-det .jcarousel-clip-horizontal{width:551px;height:86px;margin-left:26px;padding:13px 38px;background:#E8E8E8;}
+.jcarousel-skin-det .jcarousel-item{width:110px;height:86px;}
+.jcarousel-skin-det .jcarousel-item img{border:2px solid #FFF;cursor:pointer;}
+.jcarousel-skin-det .jcarousel-item img.active{border-color:#666;}
+.jcarousel-skin-det .jcarousel-item-horizontal{margin-left:0;margin-right:38px;}
+.jcarousel-skin-det .jcarousel-next-horizontal,.jcarousel-skin-det .jcarousel-next-horizontal:hover,.jcarousel-skin-det .jcarousel-prev-horizontal,.jcarousel-skin-det .jcarousel-prev-horizontal:hover{position:absolute;width:26px;height:112px;cursor:pointer;background:url(ico.jcarousel.gif) no-repeat;}
+.jcarousel-skin-det .jcarousel-next-horizontal{top:0px;right:0px;background-position:-190px top;}
+.jcarousel-skin-det .jcarousel-next-horizontal:hover{background-position:-190px -112px;}
+.jcarousel-skin-det .jcarousel-prev-horizontal{top:0px;left:0px;background-position:-164px top;}
+.jcarousel-skin-det .jcarousel-prev-horizontal:hover{background-position:-164px -112px;}
