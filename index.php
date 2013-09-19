@@ -5,7 +5,7 @@
   $xml = new DomDocument();
   
   //PROYECTOS
-  //$xml->load(DIR_PATH."assets/xml/xml_proyectos_home.xml");
+  //$xml->load(DIR_PATH."assets/xml/xml_proyectos_home.xml"); 
   $i = 0;
   $prys = $db->query("SELECT id,nombre,urlnombre,imagen,preciomin,preciodolaresmin FROM inmueble WHERE categoria='1' AND estado='1' AND '".date("Y-m-d")."' BETWEEN fechainicio AND fechafin LIMIT 0,9");
   while($pry = mysql_fetch_object($prys)){
